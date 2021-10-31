@@ -1,0 +1,10 @@
+git config --global user.name "Raman Thakur"
+git config --global user.email"ramanthakur471@gmail.com"
+touch .gitignore # for ignore the file that you dont want to see on git hub account.
+git init
+git add . 
+git commit -m "Initial Commit"
+git status # Just to see
+$ git remote add origin   git@github.com:DwXent/ocr-optical-character-recognition.git
+git push origin master
+
